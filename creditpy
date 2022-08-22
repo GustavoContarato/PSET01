@@ -21,10 +21,10 @@ if numeroCartaoLista[0] == 3 and (numeroCartaoLista[1] == 4 or numeroCartaoLista
     if soma % 10 == 0:
       print("American Express")
     else:
-      print("Cartão Inválido! 1")
+      print("Cartão Inválido!")
 
   else:
-    print("Cartão Inválido! 2")
+    print("Cartão Inválido!")
 
 
 elif numeroCartaoLista[0] == 5 and (numeroCartaoLista[1] >= 1 and numeroCartaoLista[1] <= 5):
